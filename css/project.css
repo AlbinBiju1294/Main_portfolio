@@ -1,0 +1,20 @@
+.projectlist
+{
+    margin-top: 30px;
+}
+
+.projectlist ul
+{
+    margin-top: 15px;
+    margin-left: 17px;
+}
+
+.projectlist h3
+{
+    font-weight: 400;
+}
+
+.projectlist h4
+{
+    font-weight: 300;
+}

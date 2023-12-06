@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+}
+
+a.active
+{
+    color: green;
+}
+
+.main-container
+{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #080808;
+}
+
+.logo span
+{
+    color: #CD1B4E;
+}
+
+.nav-container
+{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar
+{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+
+}
+
+.nav-items a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: small;
+    font-weight: 400;
+
+}
+
+.innercontent
+{
+    padding-bottom: 40px;
+}
+
+.nav-items a:hover{
+    transform: scale(0.7);
+    color: #CD1B4E;
+}
+
+.navlinks:hover
+{
+    transform: scale(2);
+}
+
+.fade-in-1
+{
+    animation: fadeIn 1s;
+}
+
+.fade-in-2
+{
+    animation: fadeIn 2s;
+}
+
+.fade-in-3
+{
+    animation: fadeIn 3s;
+}
+
+.fade-in-4
+{
+    animation: fadeIn 4s;
+}
+
+.fade-in-5
+{
+    animation: fadeIn 5s;
+}
+
+.fade-in-6
+{
+    animation: fadeIn 6s;
+}
+
+.fade-in-7
+{
+    animation: fadeIn 7s;
+}
+
+
+@keyframes fadeIn {
+    0%{ opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}

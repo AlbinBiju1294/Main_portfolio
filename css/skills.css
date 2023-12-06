@@ -1,0 +1,23 @@
+.tskills ul{
+    margin-top: 30px;
+    margin-left: 17px;
+}
+
+.tskills ul li{
+    margin-top: 15px;
+}
+
+.skillbar
+{
+    display: flex;
+}
+
+.list
+{
+    list-style-type: none;
+}
+
+.innercontent
+{
+    padding-bottom: 40px;
+}

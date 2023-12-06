@@ -1,0 +1,24 @@
+.query
+{
+    background-color: grey;
+    margin-top: 20px;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: small;
+    color: white;
+    border: 1px #CD1B4E solid;
+}
+
+.querybutton
+{
+    padding: 9px 11px;
+    text-decoration: none;
+    background-color: #CD1B4E;
+    color: aliceblue;
+    font-size: x-small;
+    font-weight: 300;
+    margin-left: 10px;
+    border-radius: 7px;
+}

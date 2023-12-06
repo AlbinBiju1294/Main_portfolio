@@ -1,0 +1,65 @@
+.content
+{
+    width: 90%;
+}
+
+.intro
+{
+    position: absolute;
+    top: 38%;
+    left: 20%;
+}
+
+.intro h1
+{
+    font-weight: 400;
+}
+
+.intro h4
+{
+    margin-top: 10px;
+    font-size: small;
+    font-weight: 200;
+}
+.intro span
+{
+    color: #CD1B4E;
+}
+
+.profileimage
+{
+    position: absolute;
+    top: 28%;
+    left: 54%;
+}
+
+.profileimage img
+{
+    border-radius: 50%;
+}
+
+
+.buttons a{
+    padding: 7px 5px;
+    text-decoration: none;
+    background-color: #CD1B4E;
+    color: aliceblue;
+    font-size: x-small;
+    font-weight: 300;
+    margin-left: 10px;
+    border-radius: 7px;
+}
+
+a.contact
+{
+    padding: 7px 18px;
+}
+
+.buttons
+{
+    position: absolute;
+    top: 60%;
+    left: 19%;
+}
+
+
