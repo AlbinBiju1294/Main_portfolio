@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     color: aliceblue;
+    scroll-behavior: smooth;
 }
 
 .icons
@@ -219,3 +220,22 @@ body
         opacity: 0.5;
     }
 }
+
+.animated-heading {
+    animation: appearDisappear 2s ease-in-out infinite;
+  }
+  
+  @keyframes appearDisappear {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  }  
