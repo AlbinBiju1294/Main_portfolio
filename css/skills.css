@@ -12,12 +12,85 @@
     display: flex;
 }
 
-.list
+.skillbar li
 {
+    margin-top: 20px;
+}
+
+ul.list
+{
+    margin-top: 28px;
     list-style-type: none;
+}
+
+.progresscontainer
+{
+    margin-top: 10px;
+}
+
+.progresscontainer .progressbar
+{
+    margin-top: 20px;
+}
+
+ul.list li
+{
+    margin-top: 30px;
 }
 
 .innercontent
 {
     padding-bottom: 40px;
+}
+
+.progressbar
+{
+    margin-top: 15px;
+    height: 6px;
+    border-radius: 2px;
+    width: 500px;
+    background-color: whitesmoke;
+}
+
+.progress25
+{
+    height: 100%;
+    width: 25%;
+    border-radius: 2px;
+    background-color: #CD1B4E;
+}
+
+.progress50
+{
+    height: 100%;
+    width: 50%;
+    border-radius: 2px;
+    background-color: #CD1B4E;
+}
+
+.progress75
+{
+    height: 100%;
+    width: 75%;
+    border-radius: 2px;
+    background-color: #CD1B4E;
+}
+
+.progress100
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 2px;
+    background-color: #CD1B4E;
+}
+
+.fade-in
+{
+    animation: fadeIn 3s;
+}
+
+
+@keyframes fadeIn {
+    0%{ width: 0%;
+    }
 }

@@ -1,24 +1,36 @@
 .query
 {
-    background-color: grey;
+    border-style: none;
+    opacity: 0.3;
+    background-color: whitesmoke;
     margin-top: 20px;
     width: 400px;
     height: 200px;
     border-radius: 10px;
     font-weight: 300;
     font-size: small;
-    color: white;
-    border: 1px #CD1B4E solid;
+    color: rgb(10, 10, 10);
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.projectlist h4
+{
+    color: #CD1B4E;
+    margin-top: 10px;
 }
 
 .querybutton
 {
-    padding: 9px 11px;
+    padding: 9px 15px;
     text-decoration: none;
     background-color: #CD1B4E;
     color: aliceblue;
     font-size: x-small;
     font-weight: 300;
-    margin-left: 10px;
+    margin-left: 3px;
     border-radius: 7px;
+    border: none;
+    
 }

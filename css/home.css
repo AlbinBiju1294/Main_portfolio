@@ -6,19 +6,20 @@
 .intro
 {
     position: absolute;
-    top: 38%;
-    left: 20%;
+    top: 35%;
+    left: 17%;
 }
 
 .intro h1
 {
+    font-size: 50px;
     font-weight: 400;
 }
 
 .intro h4
 {
     margin-top: 10px;
-    font-size: small;
+    font-size: medium;
     font-weight: 200;
 }
 .intro span
@@ -58,8 +59,8 @@ a.contact
 .buttons
 {
     position: absolute;
-    top: 60%;
-    left: 19%;
+    top: 62%;
+    left: 16.2%;
 }
 
 

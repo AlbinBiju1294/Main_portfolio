@@ -25,3 +25,8 @@
 {
     margin-top: 25px;
 }
+
+.imagemap img,iframe
+{
+    border-radius: 10px;
+}

@@ -18,3 +18,30 @@
 {
     font-weight: 300;
 }
+
+.projectimages
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.projectimages img
+{
+    border-radius: 10px;
+}
+
+.projectimages img:hover
+{
+    transform: scale(1.5);
+    transition:  1s;
+}
+
+.mleft
+{
+    margin-left: 10px;
+}
+
+.mtop
+{
+    margin-top: 10px;
+}
